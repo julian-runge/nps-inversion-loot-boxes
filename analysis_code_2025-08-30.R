@@ -12,7 +12,7 @@ lapply(pkgs, install.packages, character.only = T)
 lapply(pkgs, require, character.only = T)
 
 # set wd
-setwd("/Users/omz6965/Dropbox/Research/A_Problematic Digital Use/Data")
+setwd("")
 
 # read in xsection
 xsection <- read.csv("nps_lootboxes_xsection.csv", header = TRUE)
